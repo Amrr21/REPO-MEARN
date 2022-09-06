@@ -27,7 +27,20 @@ h1:hover {
     box-shadow: 5px 5px 25px rgb(0 0 0 / 70%);
 }
 
-h2 {
-    color: red;
 
+h2 {
+    color: white;
+    background-color: rgb(51, 153, 61);
+    padding: 20px;
+    margin: 50px auto;
+    width: fit-content;
+    transition: 0.4s all ease-in;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+    cursor: pointer;
+}
+
+h2:hover {
+    scale: 1.2;
+    box-shadow: 5px 5px 25px rgb(0 0 0 / 70%);
 }
